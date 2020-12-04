@@ -3,7 +3,6 @@ package com.example.mirimbestlikesslideshow;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -38,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        Button btnDone = findViewById(R.id.btn_done);
-        btnDone.setOnClickListener(btnListener);
+        //Button btnDone = findViewById(R.id.btn_done);
+        //btnDone.setOnClickListener(btnListener);
     }
 
     View.OnClickListener btnListener = new View.OnClickListener() {
