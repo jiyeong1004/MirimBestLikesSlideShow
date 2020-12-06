@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o2"/>
 
         <ImageView
             android:id="@+id/img3"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o3"/>
 
     </LinearLayout>
 
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o4"/>
 
         <ImageView
             android:id="@+id/img5"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o5"/>
 
         <ImageView
             android:id="@+id/img6"
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o6"/>
 
     </LinearLayout>
 
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o7"/>
 
         <ImageView
             android:id="@+id/img8"
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o8"/>
 
         <ImageView
             android:id="@+id/img9"
@@ -100,8 +100,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:src="@drawable/o1"/>
+            android:src="@drawable/o9"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="투표 종료"/>
 
 </LinearLayout>
